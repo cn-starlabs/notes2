@@ -17,5 +17,5 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.SYNC_TOKEN }}
-          repository: cn-starabs/notes2
+          repository: cn-starlabs/notes2
           force: true
